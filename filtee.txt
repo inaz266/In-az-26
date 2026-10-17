@@ -55,3 +55,2174 @@ trojan://humanity@188.114.97.6:443?path=%2Fassignment%3Fed%23Telegram---PLANB_NE
 trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.volumeroot.com&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&type=ws&allowInsecure=0&sni=www.volumeroot.com#%F0%9F%87%BA%F0%9F%87%B8%20Telegram%3A%40internet_azad_2026%20%2814%20October%29
 trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#%F0%9F%87%BA%F0%9F%87%B8%20Telegram%3A%40internet_azad_2026%20%2814%20October%29
 trojan://humanity@188.114.97.6:443?path=%2Fassignment%3Fed%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=www.volumeroot.com&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&type=ws&allowInsecure=0&sni=www.volumeroot.com#Telegram%3A%40internet_azad_2026%20%2814%20October%29
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com",
+      "dns.alidns.com": [
+        "223.5.5.5",
+        "223.6.6.6",
+        "2400:3200::1",
+        "2400:3200:baba::1"
+      ],
+      "dns.sse.cisco.com": [
+        "208.67.220.220",
+        "208.67.222.222",
+        "2620:119:35::35",
+        "2620:119:53::53"
+      ],
+      "dns.umbrella.com": [
+        "208.67.220.220",
+        "208.67.222.222",
+        "2620:119:35::35",
+        "2620:119:53::53"
+      ],
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "1dot1dot1dot1.cloudflare-dns.com": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dns.cloudflare.com": [
+        "162.159.61.8",
+        "172.64.41.8",
+        "2a06:98c1:52::8",
+        "2803:f800:53::8"
+      ],
+      "cloudflare-dns.com": [
+        "104.16.248.249",
+        "104.16.249.249",
+        "2606:4700::6810:f8f9",
+        "2606:4700::6810:f9f9"
+      ],
+      "engage.cloudflareclient.com": [
+        "162.159.192.1",
+        "2606:4700:d0::a29f:c001"
+      ],
+      "doh.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
+      "dot.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.quad9.net": [
+        "9.9.9.9",
+        "149.112.112.112",
+        "2620:fe::fe",
+        "2620:fe::9"
+      ],
+      "dns.sb": [
+        "45.11.45.11",
+        "185.222.222.222",
+        "2a09::",
+        "2a11::"
+      ],
+      "common.dot.dns.yandex.net": [
+        "77.88.8.8",
+        "77.88.8.1",
+        "2a02:6b8::feed:0ff",
+        "2a02:6b8:0:1::feed:0ff"
+      ],
+      "c3.nastuh.link": "20.234.202.46",
+      "funagfrdfs.alixxplay.com": [
+        "13.214.192.52",
+        "2406:da18:1d0e:c300:1eec:96d1:a7be:2d73"
+      ],
+      "wwww.qarvian.ir": "167.82.64.64",
+      "mui.firzav.ir": "13.62.104.243",
+      "b2n.ir": "104.21.93.182",
+      "b2a2.velqixa.ir": "46.62.246.189",
+      "mojif.fusetea.ir": "217.18.94.106"
+    },
+    "servers": [
+      "1.1.1.1",
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "geosite:cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ],
+        "skipFallback": true,
+        "tag": "domestic-dns_cn_expect_0"
+      },
+      {
+        "address": "1.1.1.1",
+        "domains": [
+          "geosite:google"
+        ]
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "geosite:private"
+        ],
+        "skipFallback": true,
+        "tag": "domestic-dns_1_0"
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "domain:alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:360.cn",
+          "domain:onedns.net"
+        ],
+        "skipFallback": true,
+        "tag": "domestic-dns_2_0"
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "geosite:cn"
+        ],
+        "skipFallback": true,
+        "tag": "domestic-dns_3_0"
+      }
+    ],
+    "tag": "dns-module"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "observatory": {
+    "enableConcurrency": true,
+    "probeInterval": "3m",
+    "probeUrl": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "proxy-proxy-"
+    ]
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "socks",
+      "settings": {
+        "address": "0.0.0.0",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "tcp"
+      },
+      "tag": "proxy-proxy-1-🌐 @internet_azad_2026                     \n📆 last update: 17 October"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/?Telegram---mehrosaboran"
+        }
+      },
+      "tag": "proxy-proxy-2-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/?TELEGRAM-TOOTFFARANGI"
+        }
+      },
+      "tag": "proxy-proxy-3-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560"
+        }
+      },
+      "tag": "proxy-proxy-4-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/?Telegram---DailyConfigs---DailyConfigs---DailyConfigs"
+        }
+      },
+      "tag": "proxy-proxy-5-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs"
+        }
+      },
+      "tag": "proxy-proxy-6-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/"
+        }
+      },
+      "tag": "proxy-proxy-7-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/cart/docs/www/proxyip=108.160.132.132"
+        }
+      },
+      "tag": "proxy-proxy-8-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "echConfigList": "ip.gs+udp://8.8.8.8",
+          "serverName": "a.cwvps.eu.org"
+        },
+        "wsSettings": {
+          "host": "a.cwvps.eu.org",
+          "path": "/ws"
+        }
+      },
+      "tag": "proxy-proxy-9-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "c3.nastuh.link",
+        "level": 8,
+        "method": "chacha20-ietf-poly1305",
+        "password": "y7KeRTzmH0vXT2kp",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-10-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.98.0",
+        "level": 8,
+        "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "nimm.mpd.cc.cd"
+        },
+        "wsSettings": {
+          "host": "nimm.mpd.cc.cd",
+          "path": "/0962"
+        }
+      },
+      "tag": "proxy-proxy-11-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 46105
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik",
+          "serverName": "www.lamer.com.sg",
+          "shortId": "28f5c1f8f98a"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-12-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 56656
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc",
+          "serverName": "cdn-dynmedia-1.microsoft.com",
+          "shortId": "aae6d935"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-13-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.98.0",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.calmlunch.com"
+        },
+        "wsSettings": {
+          "host": "www.calmlunch.com",
+          "path": "/assignment"
+        }
+      },
+      "tag": "proxy-proxy-14-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 34379
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA",
+          "serverName": "us1p1.xn--ghq880n3na965a.com",
+          "shortId": "e51285e3"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-15-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.98.0",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.volumeroot.com"
+        },
+        "wsSettings": {
+          "host": "www.volumeroot.com",
+          "path": "/assignment"
+        }
+      },
+      "tag": "proxy-proxy-16-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 47672
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4",
+          "serverName": "us1p1.xn--ghq880n3na965a.com",
+          "shortId": "70ab6d813e"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-17-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "20.164.209.198",
+        "level": 8,
+        "method": "aes-128-gcm",
+        "password": "itzvpn@321",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-18-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.98.0",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.volumeroot.com"
+        },
+        "wsSettings": {
+          "host": "www.volumeroot.com",
+          "path": "/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-19-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "snip.edgeoneai.cc.cd"
+        },
+        "wsSettings": {
+          "host": "snip.edgeoneai.cc.cd",
+          "path": "/fdip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-20-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560"
+        }
+      },
+      "tag": "proxy-proxy-21-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.",
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-22-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.91.244",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-23-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "72.56.241.230",
+        "encryption": "none",
+        "id": "88b744bb-8ac7-484e-a376-136193452a2c",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "authority": "Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+          "health_check_timeout": 20,
+          "idle_timeout": 60,
+          "multiMode": false,
+          "serviceName": "api.v1.StreamService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "SCQ-mhDUvmeQzJvctQYDDSha1R_rggGFkWK_9IRuvH4",
+          "serverName": "max.ru",
+          "shortId": "aabbccdd"
+        },
+        "security": "reality"
+      },
+      "tag": "proxy-proxy-24-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "199.232.78.159",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.",
+          "path": "/?TELEGRAM------TOOTFFARANGI"
+        }
+      },
+      "tag": "proxy-proxy-25-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "72.56.241.230",
+        "encryption": "none",
+        "id": "88b744bb-8ac7-484e-a376-136193452a2c",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "authority": "",
+          "health_check_timeout": 20,
+          "idle_timeout": 60,
+          "multiMode": false,
+          "serviceName": "api.v1.StreamService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "allowInsecure": false,
+          "publicKey": "SCQ-mhDUvmeQzJvctQYDDSha1R_rggGFkWK_9IRuvH4",
+          "serverName": "max.ru",
+          "shortId": "aabbccdd"
+        },
+        "security": "reality"
+      },
+      "tag": "proxy-proxy-26-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-27-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "146.75.59.186",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_2.global.ssl.fastly.net.",
+          "path": "/?TELEGRAM--------TOOTFFARANGI"
+        }
+      },
+      "tag": "proxy-proxy-28-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "mui.firzav.ir",
+        "encryption": "mlkem768x25519plus.native.0rtt.c0cVO78nHndxd7wo6c8s8bvFYTDn3I2VBhMdx4eLiGI",
+        "id": "0522382d-bdb6-4756-a15d-196805b806b2",
+        "level": 8,
+        "port": 46099
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-29-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "20.164.209.198",
+        "level": 8,
+        "method": "chacha20-ietf-poly1305",
+        "password": "IdBspBchqpInOZFK",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-30-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "199.232.20.113",
+        "encryption": "none",
+        "id": "30ed2f7b-35c1-49ca-8d9f-687983382360",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h3",
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "pinnedPeerCertSha256": "cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e",
+          "serverName": "google.com"
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "0-0"
+          },
+          "host": "fcdsxalkkkp.global.ssl.fastly.net",
+          "mode": "auto",
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-31-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.148.203.124",
+        "level": 8,
+        "method": "aes-128-gcm",
+        "password": "6163d9d532e40f417dd8ebb5f9716495",
+        "port": 12238
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-32-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_3.global.ssl.fastly.net.",
+          "path": "/"
+        }
+      },
+      "tag": "proxy-proxy-33-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "b2n.ir",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN"
+        }
+      },
+      "tag": "proxy-proxy-34-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 47672
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "ios",
+          "publicKey": "tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4",
+          "serverName": "us1p1.xn--ghq880n3na965a.com",
+          "shortId": "70ab6d813e"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-35-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "146.75.59.186",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.",
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-36-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "146.75.59.186",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_2.global.ssl.fastly.net.",
+          "path": "/"
+        }
+      },
+      "tag": "proxy-proxy-37-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "b2a2.velqixa.ir",
+        "level": 8,
+        "method": "aes-128-gcm",
+        "password": "?zlcb_PeV3uRgiC2NNoNKw",
+        "port": 39221
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-38-Telegram:@internet_azad_2026(17 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "199.232.78.160",
+        "level": 8,
+        "password": "mitivpn",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "pinnedPeerCertSha256": "cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "mitivpn--s2.global.ssl.fastly.net",
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-39-𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "snip.edgeoneai.cc.cd"
+        },
+        "wsSettings": {
+          "host": "snip.edgeoneai.cc.cd",
+          "path": "/"
+        }
+      },
+      "tag": "proxy-proxy-40-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "snip.edgeoneai.cc.cd"
+        },
+        "wsSettings": {
+          "host": "snip.edgeoneai.cc.cd",
+          "path": "/fdip"
+        }
+      },
+      "tag": "proxy-proxy-41-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "snip.edgeoneai.cc.cd"
+        },
+        "wsSettings": {
+          "host": "snip.edgeoneai.cc.cd",
+          "path": "/?TELEGRAM-TOOTFFARANGI"
+        }
+      },
+      "tag": "proxy-proxy-42-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "snip.edgeoneai.cc.cd"
+        },
+        "wsSettings": {
+          "host": "snip.edgeoneai.cc.cd",
+          "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed"
+        }
+      },
+      "tag": "proxy-proxy-43-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "snip.edgeoneai.cc.cd"
+        },
+        "wsSettings": {
+          "host": "snip.edgeoneai.cc.cd",
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-44-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 46105
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik",
+          "serverName": "www.lamer.com.sg",
+          "shortId": "28f5c1f8f98a"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-45-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 47672
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4",
+          "serverName": "us1p1.xn--ghq880n3na965a.com",
+          "shortId": "70ab6d813e"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-46-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 55688
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw",
+          "serverName": "bilibili-vn.biliimg.com",
+          "shortId": "a46bb5972cf50671"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-47-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "encryption": "none",
+        "id": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "free.nadun.store"
+        },
+        "wsSettings": {
+          "host": "free.nadun.store",
+          "path": "/"
+        }
+      },
+      "tag": "proxy-proxy-48-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.155.65",
+        "encryption": "none",
+        "id": "e6df2095-a73c-4043-8693-8d5a03686870",
+        "level": 8,
+        "port": 8443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "echConfigList": "cloudflare-ech.com+udp://8.8.8.8",
+          "serverName": "lucasjow.us.ci"
+        },
+        "wsSettings": {
+          "host": "lucasjow.us.ci",
+          "path": "/cart/docs/www/proxyip"
+        }
+      },
+      "tag": "proxy-proxy-49-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "199.232.78.159",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.",
+          "path": "/?TELEGRAM------TOOTFFARANGI"
+        }
+      },
+      "tag": "proxy-proxy-50-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "146.75.59.186",
+        "encryption": "none",
+        "id": "d1cafeeb-2861-4d1e-a462-38f16442f5b2",
+        "level": 8,
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "pinnedPeerCertSha256": "CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E",
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "host": "copy_az_channel_NUFiLTER_2.global.ssl.fastly.net.",
+          "path": "/?TELEGRAM--------TOOTFFARANGI"
+        }
+      },
+      "tag": "proxy-proxy-51-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "address": "funagfrdfs.alixxplay.com",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision",
+        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+        "level": 8,
+        "port": 35544
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "ios",
+          "publicKey": "HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc",
+          "serverName": "iosapps.itunes.apple.com",
+          "shortId": "25c79e5856c7"
+        },
+        "security": "reality",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-52-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "mojif.fusetea.ir",
+        "level": 8,
+        "method": "chacha20-ietf-poly1305",
+        "password": "izI0KcLREG0_mXtyYSFp_37XSO7KoDvF",
+        "port": 2089
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-proxy-53-Telegram:@internet_azad_2026(16 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.pleadcourt.org"
+        },
+        "wsSettings": {
+          "host": "www.pleadcourt.org",
+          "path": "/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-54-Telegram:@internet_azad_2026 (14 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.volumeroot.com"
+        },
+        "wsSettings": {
+          "host": "www.volumeroot.com",
+          "path": "/assignment"
+        }
+      },
+      "tag": "proxy-proxy-55-🇺🇸 Telegram:@internet_azad_2026 (14 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.pleadcourt.org"
+        },
+        "wsSettings": {
+          "host": "www.pleadcourt.org",
+          "path": "/assignment"
+        }
+      },
+      "tag": "proxy-proxy-56-🇺🇸 Telegram:@internet_azad_2026 (14 October)"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "level": 8,
+        "password": "humanity",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "fingerprint": "chrome",
+          "serverName": "www.volumeroot.com"
+        },
+        "wsSettings": {
+          "host": "www.volumeroot.com",
+          "path": "/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "tag": "proxy-proxy-57-Telegram:@internet_azad_2026 (14 October)"
+    },
+    {
+      "protocol": "freedom",
+      "streamSettings": {
+        "network": "tcp",
+        "sockopt": {
+          "domainStrategy": "UseIP"
+        }
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "block"
+    }
+  ],
+  "remarks": "kam",
+  "routing": {
+    "balancers": [
+      {
+        "selector": [
+          "proxy-proxy-"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        },
+        "tag": "balancer-main"
+      }
+    ],
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "port": "443",
+        "type": "field"
+      },
+      {
+        "balancerTag": "balancer-main",
+        "domain": [
+          "geosite:google"
+        ],
+        "type": "field"
+      },
+      {
+        "ip": [
+          "ext:geoip-only-cn-private.dat:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5",
+          "223.6.6.6",
+          "2400:3200::1",
+          "2400:3200:baba::1",
+          "119.29.29.29",
+          "1.12.12.12",
+          "120.53.53.53",
+          "2402:4e00::",
+          "2402:4e00:1::",
+          "180.76.76.76",
+          "2400:da00::6666",
+          "114.114.114.114",
+          "114.114.115.115",
+          "114.114.114.119",
+          "114.114.115.119",
+          "114.114.114.110",
+          "114.114.115.110",
+          "180.184.1.1",
+          "180.184.2.2",
+          "101.226.4.6",
+          "218.30.118.6",
+          "123.125.81.6",
+          "140.207.198.6",
+          "1.2.4.8",
+          "210.2.4.8",
+          "52.80.66.66",
+          "117.50.22.22",
+          "2400:7fc0:849e:200::4",
+          "2404:c2c0:85d8:901::4",
+          "117.50.10.10",
+          "52.80.52.52",
+          "2400:7fc0:849e:200::8",
+          "2404:c2c0:85d8:901::8",
+          "117.50.60.30",
+          "52.80.60.30"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:360.cn",
+          "domain:onedns.net"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "ext:geoip-only-cn-private.dat:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "domestic-dns_1_0",
+          "domestic-dns_2_0",
+          "domestic-dns_3_0",
+          "domestic-dns_cn_expect_0"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "balancerTag": "balancer-main",
+        "inboundTag": [
+          "dns-module"
+        ],
+        "type": "field"
+      },
+      {
+        "balancerTag": "balancer-main",
+        "network": "tcp,udp",
+        "type": "field"
+      }
+    ]
+  }
+}
